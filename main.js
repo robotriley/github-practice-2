@@ -1,3 +1,3 @@
 const divTwo = document.querySelector('divTwo')
 
-strings = {"red", "blue", "yellow"}
+strings = ["red", "yellow", "blue"]
