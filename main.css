@@ -2,4 +2,22 @@
     text-align: center;
     font-size: 300%;
     font-family: Arial, Helvetica, sans-serif;
+    color:chartreuse;
+    background-color: black;
+}
+
+.para {
+    text-align: center;
+    font-size: 200%;
+    font-family:'Courier New', Courier, monospace;
+    color: yellowgreen;
+    background-color: #333;
+}
+
+#secondheading {
+    font-size: 40px;
+    color: rgb(50, 51, 4);
+    background-color: rgb(93, 91, 91);
+    text-align: center;
+
 }
