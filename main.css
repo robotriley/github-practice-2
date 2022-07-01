@@ -21,3 +21,20 @@
     text-align: center;
 
 }
+
+/* li { 
+font-size: 200%;
+font-style: italic;
+text-align: center;
+} */
+
+ul {
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 1px 1px 45px yellow;
+
+}
+
+body {
+    background-color:#333
+}

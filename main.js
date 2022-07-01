@@ -1,20 +1,38 @@
-const header1 = document.createElement("h1")
-header1.innerText = "Test 02"
-header1.setAttribute('class', 'header')
-console.log(header1)
-document.body.append(header1)
+let h1=document.createElement("h1")
+h1.textContent="Test 02"
+h1.setAttribute('class', 'header')
+console.log(h1)
+document.body.append(h1)
 
-const para = document.createElement("p")
-para.innerText = "Hello, this is Riley"
-para.setAttribute("class", "para")
-document.body.append(para)
+let p=document.createElement("p")
+p.innerText="Hello, this is Riley"
+p.setAttribute("class", "para")
+document.body.append(p)
 
-const paraTwo = document.createElement("p")
-paraTwo.innerText = "I'm practicing adding elements to the DOM"
-paraTwo.setAttribute("class", "para")
-document.body.append(paraTwo)
+p=document.createElement("p")
+p.innerText="I'm practicing adding elements to the DOM"
+p.setAttribute("class", "para")
+document.body.append(p)
 
-const header2 = document.createElement("h2")
-header2.setAttribute("id", "secondheading")
-header2.innerText = "Another heading. This one has an ID attribute"
-document.body.append(header2)
+let h2=document.createElement("h2")
+h2.setAttribute("id", "secondheading")
+h2.innerText="Another heading. This one has an ID attribute"
+document.body.append(h2)
+
+let list1=document.getElementById('list-1')
+
+let li=document.createElement('li')
+li.textContent=('coconut')
+list1.append(li)
+
+li=document.createElement('li')
+li.textContent=('berry')
+list1.append(li)
+
+li=document.createElement('li')
+li.textContent=('lemon')
+list1.append(li)
+
+li=document.createElement('li')
+li.textContent=('tree')
+list1.append(li)
